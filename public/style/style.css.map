@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,IAAI;CACd;;AAED,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "style.scss",
+        "sass/_variables.scss",
+        "sass/_preset.scss",
+        "sass/_mixins.scss",
+        "sass/_header.scss",
+        "sass/_footer.scss",
+        "sass/_variables.scss",
+        "sass/_variables.scss",
+        "sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
