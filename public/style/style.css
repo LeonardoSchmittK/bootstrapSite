@@ -22,6 +22,7 @@ html {
   letter-spacing: 1px;
   line-height: 30px;
   text-align: justify;
+  max-width: 1200px;
 }
 
 .col-sm-4 {
@@ -72,10 +73,13 @@ img {
 
 .documentation {
   position: fixed;
+  border-radius: 40px;
   z-index: 99;
-  max-width: 250px;
+  max-width: 235px;
   height: auto;
   background-color: white;
+  -webkit-box-shadow: 10px 10px 10px rgba(165, 165, 165, 0.411);
+          box-shadow: 10px 10px 10px rgba(165, 165, 165, 0.411);
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,7 +103,6 @@ img {
   font-size: 1.2em;
   letter-spacing: 1px;
   line-height: 35px;
-  width: 100%;
   border-left: 2px solid black;
   padding-left: 16px;
 }
@@ -109,8 +112,6 @@ img {
 }
 
 .documentation ul li:hover {
-  -webkit-box-shadow: inset 10px 10px 10px rgba(231, 231, 231, 0.452);
-          box-shadow: inset 10px 10px 10px rgba(231, 231, 231, 0.452);
   font-weight: bold;
   list-style-type: disc;
   color: #007bff93 !important;
