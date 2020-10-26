@@ -28,8 +28,8 @@
         <div class="navbar-brand ">
           <i class="fab fa-bootstrap h1 "></i>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggler">
+          <span class="navbar-toggler-icon p-1 "></span>
         </button>
         <div class="collapse navbar-collapse" id='navbarToggler'>
           <ul class="navbar-nav h5  mr-auto">
@@ -67,12 +67,60 @@
       <div class="pogress-bar  " style='width:100%;height:2px'></div>
     </div>
 
+    <div class="documentation col-md-3 col-xl-2 bd-sidebar ">
+      <nav class='navbar navbar-expand-sm navbar-light '>
+
+        <button type='button' class='btn btn-primary navbar-toggler' data-toggle='collapse' data-target='#menuDocs'>
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class="collapse navbar-collapse " id='menuDocs'>
+
+          <ul class=''>
+
+            <a href="#">
+              <li class='text-dark'>Getting started</li>
+            </a>
+            <a href="#">
+              <li class='text-dark'>Layout</li>
+            </a>
+            <a href="#">
+              <li class='text-dark'>Tables</li>
+              <a href="#">
+                <li class='text-dark'>Text</li>
+              </a>
+              <a href="#">
+                <li class='text-dark'>Colors</li>
+              </a>
+              <a href="#">
+                <li class='text-dark'>Container</li>
+                <a href="#">
+                  <li class='text-dark'>Position</li>
+                </a>
+                <a href="#">
+                  <li class='text-dark'>Flex</li>
+                </a>
+                <a href="#">
+                  <li class='text-dark'>Grid</li>
+                  <a href="#">
+                    <li class='text-dark'>More</li>
+                  </a>
+                  <a href="#">
+                    <li class='text-dark'>Images</li>
+                  </a>
+                  <a href="#">
+                    <li class='text-dark'>Collapse</li>
+                  </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <div class="row justify-content-around  p-5">
       <div class="col-ms-3  p-3  mb-5">
         <h1>Bootstrap 4</h1>
         <div class="badge badge-primary p-2 mb-3">New</div>
-        <p class='l'>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque consequatur aperiam
+        <p class='l'>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque consequatur
+          aperiam
           incidunt,
           obcaecati illo ex sapiente consectetur voluptatibus? Rerum repellat est sit nostrum in eaqorem ipsum dolor sit
           amet consectetur adipisicing elit. Nostrum atque consequatur aperiam incidunt,
@@ -80,55 +128,68 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil itaque doloribus tempora id cum ullam, dolor
           quasi. Sint, quia in consequuntur, reiciendis impedit asperiores odio ducimus beatae maiores ex optio.
         </p>
-       <button class='btn btn-primary btn-outline-light download pl-5 pr-5 '>
-        <i class="fas fa-download mr-2 d-inline"></i>Download</button>
+        <button class='btn btn-primary btn-outline-light download pl-5 pr-5 '>
+          <i class="fas fa-download mr-2 d-inline"></i>Download</button>
 
       </div>
       <div class="col-sm-4  p-4  mb-5 shadow">
         <h1 class=''>Fast</h1>
-        <div class="badge badge-primary p-2 mb-3" style="width:20%">New</div>
+        <div class="badge badge-pill badge-primary p-2 mb-3" style="width:20%">New</div>
         <i class="fas fa-fast-forward pr-3 text-secondary col-sm-3  "></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque consequatur aperiam incidunt,
           obcaecati illo ex sapiente consectetur voluptatibus? Rerum repellat est sit nostrum in eaque quod totam, ipsu
           a.</p>
-          <button class='btn  btn-outline-primary text-uppercase p-2 mt-4'>Test</button>
+        <button class='btn  btn-outline-primary text-uppercase p-2 mt-4'>Test</button>
       </div>
       <div class="col-sm-4  p-4  mb-5 shadow ">
         <h1 class=''>Feasible</h1>
-        <div class="badge badge-primary p-2 mb-3" style="width:20%">New</div>
+        <div class="badge badge-pill badge-primary p-2 mb-3" style="width:20%">New</div>
         <i class="fas fa-external-link-alt pr-3 text-secondary col-sm-3 mb-4 "></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque consequatur aperiam incidunt,
           obcaecati illo ex sapiente consectetur voluptatibus? Rerum repellat est sit nostrum in eaque quod totam, ipsu
           a.</p>
-          <button class='btn  btn-outline-primary text-uppercase p-2 mt-4'>Test</button>
+        <button class='btn  btn-outline-primary text-uppercase p-2 mt-4'>Test</button>
       </div>
 
     </div>
-    
-   <img class='img-fluid' src="/public/logo.png" alt="">
+
+    <img class='img-fluid' src="/public/logo.png" alt="">
 
     <div class="container questions text-justify mt-5" id='questions'>
-      <h1 class='questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question1">About</h1> 
-      <div class=" question1 collapse "  id='question1'>
-         <p class='ml-2 border-left border-bottom p-3'>Bootstrap is a mobile-first front-end framework which its newly version is <mark>v4.5.3</mark> . It was idealized by <strong>Mark Otto and Jacob Thornton</strong> . The framework makes easier deal with HTML and CSS by using predefined classes, which in turn improve the time management.</p>
-       </div>
+      <h1 class='questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question1">About</h1>
+      <div class=" question1 collapse " id='question1'>
+        <p class='ml-2 border-left border-bottom p-3'>Bootstrap is a mobile-first front-end framework which its newly
+          version is <mark>v4.5.3</mark> . It was idealized by <strong>Mark Otto and Jacob Thornton</strong> . The
+          framework makes easier deal with HTML and CSS by using predefined classes, which in turn improve the time
+          management.</p>
+      </div>
 
-      <h1 class=' questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question2">Question2</h1> 
-      <div class=" question2 collapse "  id='question2'>
-         <p class='ml-2 border-left border-bottom p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, aut hic ratione nisi expedita ut quos! Facere dolore saepe ratione pariatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum doloremque quod ipsa. Quasi nemo ad animi aperiam unde repellendus molestiae veniam quisquam, odit earum pariatur alias! Recusandae, iusto! Excepturi! sed fugiat, consequatur numquam vero architecto voluptatem quidem.</p>
-       </div>
-       
-       <h1 class='questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question3">Question3</h1> 
-       <div class="question3 collapse "  id='question3'>
-          <p class='ml-2 border-left border-bottom p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, aut hic ratione nisi expedita ut quos! Facere dolore saepe ratione pariatur repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum doloremque quod ipsa. Quasi nemo ad animi aperiam unde repellendus molestiae veniam quisquam, odit earum pariatur alias! Recusandae, iusto! Excepturi! sed fugiat, consequatur numquam vero architecto voluptatem quidem.</p>
-        </div>
+      <h1 class=' questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question2">Question2
+      </h1>
+      <div class=" question2 collapse " id='question2'>
+        <p class='ml-2 border-left border-bottom p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+          aut hic ratione nisi expedita ut quos! Facere dolore saepe ratione pariatur repellendus Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Pariatur harum doloremque quod ipsa. Quasi nemo ad animi aperiam unde
+          repellendus molestiae veniam quisquam, odit earum pariatur alias! Recusandae, iusto! Excepturi! sed fugiat,
+          consequatur numquam vero architecto voluptatem quidem.</p>
+      </div>
+
+      <h1 class='questionTitle dropdown-toggle border p-4' data-toggle='collapse' data-target="#question3">Question3
+      </h1>
+      <div class="question3 collapse " id='question3'>
+        <p class='ml-2 border-left border-bottom p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+          aut hic ratione nisi expedita ut quos! Facere dolore saepe ratione pariatur repellendus Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Pariatur harum doloremque quod ipsa. Quasi nemo ad animi aperiam unde
+          repellendus molestiae veniam quisquam, odit earum pariatur alias! Recusandae, iusto! Excepturi! sed fugiat,
+          consequatur numquam vero architecto voluptatem quidem.</p>
+      </div>
     </div>
 
     <footer class='text-center mt-5 pb-4 '>
-        <a href="#" class='text-dark '><i class="fab fa-instagram-square h2 "></i></a>
-        <a href="#" class='text-dark'><i class="fab fa-facebook-square h2 pl-2 pr-2"></i></a>
-        <a href="#" class='text-dark'><i class="fab fa-github-square h2"></i></a>
-          &copy;study
+      <a href="#" class='text-dark '><i class="fab fa-instagram-square h2 "></i></a>
+      <a href="#" class='text-dark'><i class="fab fa-facebook-square h2 pl-2 pr-2"></i></a>
+      <a href="#" class='text-dark'><i class="fab fa-github-square h2"></i></a>
+      &copy;study
     </footer>
   </div>
 
